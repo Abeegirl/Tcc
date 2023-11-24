@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>IFLegacy</title>
+    <link rel="icon" type="image/x-icon" href="../dashboard/images/favicon.ico">
+</head>
+<!--Página para usuários que esqueceram a senha(Recuperação de senha)-->
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-in">
+            <form>
+                <!--Texto lado esquerdo ao carregar-->
+                <h1>IFLegacy</h1>
+                <span>Por favor, informe o email vinculado a conta!<br>Diga o seu tipo de conta:</br></span>
+                <!--Div para arrumar no css-->
+                <div class="radio-container button">
+                    <label>Administrador
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="radio-container button">
+                    <label>Usuário Comum
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <!--Box de escrita-->
+                <input type="email" placeholder="Email">
+                <a href="index.html">Voltar a página de login!</a>
+                <button>Enviar</button>
+            </form>
+        </div>
+        
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-right">
+                    <h1>Olá, usuário!</h1>
+                    <p>Nos ajude a recuperar sua conta!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
